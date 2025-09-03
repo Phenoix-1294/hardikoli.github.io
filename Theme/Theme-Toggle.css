@@ -1,0 +1,54 @@
+/*Base Styles*/
+    body {
+        margin: 0;
+        font-family: Dancing Script, cursive;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+/*Light Theme*/
+    body.light-theme {
+        background-color: lightblue;
+        color: #1a1a1a;
+    }
+    body.light-theme header {
+        background-color: lightgreen;
+        color: black;
+    }
+    body.light-theme footer {
+        background-color: lightgreen;
+        color: black;
+    }
+    body.light-theme #theme-toggle {
+        background-color: none;
+        color: black;
+    }
+
+/*Dark Theme*/
+    body.dark-theme {
+        background-color: blue;
+        color: #f1f1f1;
+    }
+    body.dark-theme header {
+        background-color: greenyellow;
+        color: white;
+    }
+    body.dark-theme footer {
+        background-color: green;
+        color: white;
+    }
+    body.dark-theme #theme-toggle {
+        background: none;
+        color: white;
+    }
+/*Toggle Button Style*/
+    #theme-toggle{
+        font-size: 24px;
+        border: none;
+        cursor: pointer;
+    }
