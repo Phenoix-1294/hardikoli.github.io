@@ -14,7 +14,7 @@
     .navbar {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content:space-between;
         padding: 16px 32px;
         background-color:white;
         color: #1a1a1a;
@@ -27,11 +27,12 @@
         font-weight: bold;
     }
 
-/*Navigation Buttons*/
+/*Navigation Buttweightons*/
     .nav-buttons {
         display: flex;
         gap: 12px;
-        font-sized: medium;
+        font-size: medium;
+        
     }
 
     .nav-buttons {
@@ -53,7 +54,7 @@
     #theme-toggle {
         font-size: 20px;
         background: none;
-        border: none;
+        border:none;
         cursor: pointer;
         padding: 8px;
         transition: color 0.3s;
