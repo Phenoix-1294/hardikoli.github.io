@@ -31,6 +31,7 @@
     .nav-buttons {
         display: flex;
         gap: 12px;
+        font-sized: medium;
     }
 
     .nav-buttons {
