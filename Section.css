@@ -16,7 +16,7 @@
         align-items: center;
         justify-content:space-between;
         padding: 16px 32px;
-        background-color: none;
+        background-color: transparent;
         color: black;
         font-weight: bold
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
@@ -33,13 +33,12 @@
         display: flex;
         gap: 12px;
         font-size: medium;
-        
     }
 
     .nav-buttons {
         padding: 8px 16px;
         border: none;
-        background-color: white;
+        background-color: transparent;
         color: black;
         border-radius: 5px;
         cursor: pointer;
@@ -47,7 +46,7 @@
     }
 
     .nav-buttons:hover {
-        background-color: none;
+        background-color: transparent;
         color: purple;
     }
 
