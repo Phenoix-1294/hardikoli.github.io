@@ -45,8 +45,8 @@
     }
 
     .nav-buttons:hover {
-        background-color: rgb(188, 12, 228);
-        color: white;
+        background-color: none;
+        color: purple;
     }
 
 /*Theme Toggle Button*/
