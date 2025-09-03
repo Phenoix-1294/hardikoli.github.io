@@ -17,7 +17,8 @@
         justify-content:space-between;
         padding: 16px 32px;
         background-color: none;
-        color: #1a1a1a;
+        color: black;
+        font-weight: bold
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     }
 
