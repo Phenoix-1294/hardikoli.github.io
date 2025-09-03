@@ -1,0 +1,75 @@
+/*Base Reset*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {  
+        font-family: Dancing Script, cursive;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+/*NavBar Container*/
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 32px;
+        background-color:white;
+        color: #1a1a1a;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+/*LOGO*/
+    .logo {
+        font-size: 100px;
+        font-weight: bold;
+    }
+
+/*Navigation Buttons*/
+    .nav-buttons {
+        display: flex;
+        gap: 12px;
+    }
+
+    .nav-buttons {
+        padding: 8px 16px;
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s, color 0.2s;
+    }
+
+    .nav-buttons:hover {
+        background-color: rgb(188, 12, 228);
+        color: white;
+    }
+
+/*Theme Toggle Button*/
+    #theme-toggle {
+        font-size: 20px;
+        background: none;
+        border:none;
+        cursor: pointer;
+        padding: 8px;
+        transition: color 0.3s;
+    }    
+
+/*Responsive (optional)*/
+    @media (max-width: 600px) {
+        .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        .nav-buttons {
+            flex-direction: column;
+            width: 100%;
+        }
+        .nav-buttons {
+            width: 100%;
+        }
+    }
