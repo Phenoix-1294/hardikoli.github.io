@@ -1,6 +1,6 @@
 /*Base Styles*/
     body {
-        margin: 0;
+        margin: auto;
         font-family: Dancing Script, cursive;
         transition: background-color 0.3s, color 0.3s;
     }
