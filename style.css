@@ -27,9 +27,7 @@
     footer {
         margin-top: 2rem;
         background-color: white;
-        font-size: 0.9rem;
-        color: black;
-        border-top: 1px solid white;
-        padding-top: 0.5rem;   
+        font-size: xx-small;
+        color: black;  
         text-align: center;
     }
