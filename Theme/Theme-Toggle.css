@@ -35,11 +35,11 @@
         color: #f1f1f1;
     }
     body.dark-theme header {
-        background-color: none;
+        background-color: purple;
         color: black;
     }
     body.dark-theme footer {
-        background-color: none;
+        background-color: purple;
         color: black;
     }
     body.dark-theme #theme-toggle {
