@@ -33,6 +33,7 @@
         display: flex;
         gap: 12px;
         font-size: medium;
+        font-family: 'Dancing Script', cursive;
     }
 
     .nav-buttons {
@@ -43,11 +44,13 @@
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.2s, color 0.2s;
+        font-family: 'Dancing Script', cursive;
     }
 
     .nav-buttons:hover {
         background-color: transparent;
         color: white;
+        font-family: 'Dancing Script', cursive;
     }
 
 /*Theme Toggle Button*/
@@ -75,6 +78,3 @@
             width: 100%;
         }
     }
-.navbar, .nav-buttons, .logo {
-    font-family: 'Dancing Script', cursive;
-}
