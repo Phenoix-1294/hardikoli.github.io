@@ -48,7 +48,7 @@
     }
 /*Toggle Button Style*/
     #theme-toggle{
-        font-size: 100px;
+        font-size: 50px;
         border: none;
         cursor: pointer;
         position: fixed;
